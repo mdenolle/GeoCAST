@@ -10,7 +10,7 @@ We start with
 First create a conda env:
 
 ```
-conda env create --name quakellm python=3.11
+conda create --name quakellm python=3.11
 conda activate quakellm
 git clone https://github.com/SalesforceAIResearch/uni2ts.git
 cd uni2ts
