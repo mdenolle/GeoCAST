@@ -7,7 +7,7 @@ It is not intended to build a new foundation model, but instead to test existing
 We start with 
 
 * Chronos : https://github.com/amazon-science/chronos-forecasting (LLM)
-* Moirai : https://github.com/SalesforceAIResearch/uni2ts (foundational TS)
+* Moirai : https://github.com/SalesforceAIResearch/uni2ts (foundation TS)
 * Moment: https://github.com/moment-timeseries-foundation-model/moment
 
 Chronos and Moirai do not have dependency conflicts, so one conda environment can work:
