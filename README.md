@@ -15,7 +15,7 @@ Chronos and Moirai do not have dependency conflicts, so one conda environment ca
 ```
 conda create --name quake_chronos_moirai python=3.11
 conda activate quake_chronos_moirai
-pip install -r requirements_chronos_units.txt
+pip install -r requirements_chronos_moirai.txt
 ```
 
 
