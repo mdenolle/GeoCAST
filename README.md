@@ -10,6 +10,11 @@ We start with
 * Moirai : https://github.com/SalesforceAIResearch/uni2ts (foundation TS)
 * Moment: https://github.com/moment-timeseries-foundation-model/moment
 
+
+SAM is for segmentation (mostly masked Unet)
+
+
+
 Chronos and Moirai do not have dependency conflicts, so one conda environment can work:
 
 ```
@@ -30,3 +35,24 @@ pip install -e '.[notebook]'
 cd ..
 pip install obspy pandas matplotlib
 ```
+
+
+## DATA
+
+
+- Extreme events:
+    - Earthquakes (earthquakes catalogs & synthetic catalogs)
+    - Wildfire
+    - Floods
+    - landslides?
+
+
+- Semi-periodic:
+    -  precipitation
+    -  hydrological loads on surface displacements
+    - dv/v, temp, precips
+
+- Transient waves:
+    - earthquake ground motion
+    - acoustics
+    - bioacoustics
