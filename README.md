@@ -8,11 +8,7 @@ We start with
 
 * Chronos : https://github.com/amazon-science/chronos-forecasting (LLM)
 * Moirai : https://github.com/SalesforceAIResearch/uni2ts (foundation TS)
-* Moment: https://github.com/moment-timeseries-foundation-model/moment
-
-
-SAM is for segmentation (mostly masked Unet)
-
+Both have been released in mid 2024 and then released last month a multi-scale / improved version.
 
 
 Chronos and Moirai do not have dependency conflicts, so one conda environment can work:
